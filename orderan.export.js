@@ -66,7 +66,7 @@ for (var i in e) { //loop
             "pj": {"stringValue": ""},
         }
     }
-    data = JSON.stringify(data).replace(/["]/g, `\\"`);
+    data = JSON.stringify(data).replace(/["]/g, '\\"');
 
     result = http.post(host, data);
     var cek = result.body;
