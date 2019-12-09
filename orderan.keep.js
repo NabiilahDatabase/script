@@ -29,7 +29,6 @@ if (statusKeep=="Belum") { //stat
      e[i].set("Waktu Keep",now);
      jum++;
   } //stat
-} //loop
 
 if (statusKeep=="Export") { //stat
      var newBcd = Number(now)+Number(uid(4)) + "-" + uid(4);
@@ -37,6 +36,7 @@ if (statusKeep=="Export") { //stat
      e[i].set("Waktu Keep",now);
      jum++;
   } //stat
+
 } //loop
 
 message(jum+" barang sudah masuk list keep ndoro");
