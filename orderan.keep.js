@@ -34,6 +34,8 @@ if (statusKeep=="Export") { //stat
      var newBcd = Number(now)+Number(uid(4)) + "-" + uid(4);
      e[i].set("Status Keep","Keep");
      e[i].set("Waktu Keep",now);
+     e[i].set("Barcode",newBcd);
+     e[i].set("qrcode",newBcd);
      jum++;
   } //stat
 
