@@ -95,7 +95,7 @@ for (var i in e) { //loop
 
     var db = "https://firestore.googleapis.com/v1beta1/projects/nabiilah-duit/databases/(default)/documents/closing/"+id+"/barang?documentId="+bcd+"&key=AIzaSyAaC_P9vm-hnCA0TqejEgYeySKLMawYOnY";
 
-    var tmp = "{\"mapValue\": {\"fields\": {\"barcode\": {\"integerValue\": \""+bcd+"\"}, \"toko\": {\"stringValue\": \""+toko+"\"}, \"nama\": {\"stringValue\": \""+barang+"\"}, \"warna\": {\"stringValue\": \""+warna+"\"}, \"berat\": {\"integerValue\": \""+beratBrg+"\"}, \"harga\": {\"integerValue\": \""+harga+"\"}}}}";
+    var tmp = "{\"mapValue\": {\"fields\": {\"barcode\": {\"stringValue\": \""+bcd+"\"}, \"toko\": {\"stringValue\": \""+toko+"\"}, \"nama\": {\"stringValue\": \""+barang+"\"}, \"warna\": {\"stringValue\": \""+warna+"\"}, \"berat\": {\"integerValue\": \""+beratBrg+"\"}, \"harga\": {\"integerValue\": \""+harga+"\"}}}}";
 
 if (jum==0) {
   listBarang += tmp;
