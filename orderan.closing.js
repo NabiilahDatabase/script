@@ -122,7 +122,7 @@ result = http.post(host, data);
     ubahStatus();
     message("Closing Berhasil");
   } else {
-    message("FORMAT ERROR:\n"+data);
+    message("FORMAT ERROR:\n"+cek+"\nDATA:\n"+error);
   }
 
 //}
